@@ -97,7 +97,7 @@ unzip abseil.zip > /dev/null
 rm abseil.zip
 mkdir -p ./abseil-cpp-20230802.1/build
 cd ./abseil-cpp-20230802.1/build
-cmake ..  -DCMAKE_INSTALL_PREFIX=/abseil/install
+cmake ..
 cmake  --build . --target install
 cd ..
 cd ..
